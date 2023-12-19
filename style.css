@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.brauser__container {
+    display: flex;
+    gap: 470px;
+    background: #F5F7FA;
+    padding: 30px 105px;
+}
+
+.google {
+    width: 111.49px;
+    height: 20.662px;
+}
+
+.brauser__container--nav-cards {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+.brauser__container--link {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+.section__brauser {
+    padding-left: 105px;
+    padding-top: 56px;
+}
+
+
+
+
+
+.section__brauser--cards {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 56px;
+}
+
+
+.section__brauser--card {
+    background: transparent;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.section__brauser--card:hover {
+    transition: 0.3s;
+    transform: translateY(-46px);
+    background: #F5F7FA;
+}
+
+.whidth {
+    width: 326px;
+    height: 326px;
+}
+
+
+
+
+.footer__container {
+    text-align: center;
+    margin-top: 56px;
+    background: #F5F7FA;
+    padding: 30px 105px;
+}
+
+.footer__container--cards {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.footer__container--link {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
